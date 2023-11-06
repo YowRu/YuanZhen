@@ -1,0 +1,27 @@
+.flex{margin:20px auto;}
+.flex.login{align-items:center;width: 515px;padding-left:150px;box-sizing: border-box;margin-top: 20px;}
+.flex.login label{width: 130px;color:#606060;}
+.robot{height:105px;object-fit: contain;display: block;margin:45px auto 40px;}
+.flex.login a{display:block;margin:1% auto;font-size:1.2rem;border-bottom: 1px solid #606060;}
+.signUp{display:block;width: 150px;height: 45px;border: 1px solid #76BA15;background-color: #fff;color: #76BA15;margin: 30px auto;
+box-sizing: border-box;font-size: 14px;line-height: 45px;text-align:center;cursor:pointer;}
+.flex.button {max-width: 500px;width:100%;margin:0 auto;}
+@media(max-width:700px){
+    form{width:85%;}
+    .flex.login{width:100%;padding-left:0;justify-content:center;align-items:center;}
+    .flex.login .flex{width: 150px;margin: 0;}
+    .flex.login a{margin:0 0 0 20px;}
+}
+
+@media(max-width:550px){
+    form{width:90%;}
+    .flex label {width: 12%;}
+    button,.signUp{width:45%;}
+    .robot{height:90px;}
+}
+@media(max-width:414px){
+    form{width:100%;}
+}
+@media(max-width:414px){
+   .flex label {width: 15%;}
+}

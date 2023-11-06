@@ -1,0 +1,15 @@
+.flex{margin:20px auto;}
+.signUp{display:block;width: 150px;height: 45px;border: 1px solid #76BA15;background-color: #fff;color: #76BA15;margin: 30px auto;
+box-sizing: border-box;font-size: 14px;line-height: 45px;text-align:center;cursor:pointer;}
+.flex.button{width:500px;}
+.flex.input.gender{width:84%;}
+@media (max-width: 700px){
+.flex {width: 100%;}
+}
+@media (max-width: 550px){
+form {width:90%;}
+}
+@media (max-width: 414px){
+form {width:97%;}
+    .flex label{width:20%;}
+}

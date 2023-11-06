@@ -1,0 +1,7 @@
+/*main*/
+#main img{width:100%;object-fit:contain;}
+#main .mobile{display:none;}
+@media(max-width:950px){
+    #main img.pc{display:none;}
+    #main .mobile{display:block;}
+}
